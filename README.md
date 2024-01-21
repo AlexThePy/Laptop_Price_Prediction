@@ -1,5 +1,5 @@
 # Laptop Price Prediction
-![laptops](https://github.com/AlexThePy/Laptop_Price_Prediction/assets/106477870/d567637a-59ba-4785-875f-cd61a9b4e05b)
+![laptops](https://github.com/AlexThePy/Laptop_Price_Prediction/assets/106477870/d567637a-59ba-4785-875f-cd61a9b4e05b width="400" height="790")
 
 
 # Problem Description
