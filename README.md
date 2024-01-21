@@ -12,6 +12,19 @@ A predictive model is built using machine learning techniques. The features like
 
 Upon using the Linear, Random Forest and XGB Regressors and performing hyperparameter tuning I chose the XGB Regressor as the best model.
 
+
+# Exploratory Data Analysis
+
+For the EDA, I have performed:
+-Statistical Summary by looking at the distribution of the numeric features, the mean, median, and outliers.
+-Correlation Analysis by determining how the different features relate to the price and to each other.
+-Visualization by creating plots to visualize distributions and relationships in the data.
+-Important Features Analysis by identifying which features have the most influence on laptop prices using feature importance from model or other statistical methods.
+![prices_ram](https://github.com/AlexThePy/Laptop_Price_Prediction/assets/106477870/1deff6dd-f9b7-40a6-b21c-63af934d1ae1)
+
+![ram_price](https://github.com/AlexThePy/Laptop_Price_Prediction/assets/106477870/a21f062f-c7d3-462a-ac02-11987b84ff7e)
+
+
 # INSTRUCTIONS:
 
 # I. Download the whole project from my github.
