@@ -42,8 +42,7 @@ python3 -m venv venv
 This command creates a new virtual environment named venv within your project directory. You can name it differently if you prefer.
 
 
-3. Activating the Virtual Environment
-Before installing any packages, you need to activate the virtual environment:
+3. Activating the Virtual Environment:
 
 Windows:
 
@@ -97,4 +96,6 @@ python predict.py
 ```
 to start the Flask server.
 
-3.
+3. Access http://127.0.0.1:6969/
+
+4. Check the laptop_price.csv dataset to predict the price of any laptop there!
