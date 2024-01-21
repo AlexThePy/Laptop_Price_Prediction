@@ -57,7 +57,7 @@ pip install -r requirements.txt
 This command reads the requirements.txt file and installs all the packages listed there, along with their specified versions.
 
 
-Building the docker image:
+# Building the docker image:
 
 1. Open the cmd prompt and navigate to the directory with the dockerfile:
 cd "path\to\folder"
