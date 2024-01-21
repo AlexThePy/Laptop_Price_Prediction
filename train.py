@@ -3,7 +3,7 @@
 
 # In[2]:
 
-
+import os
 import pandas as pd
 import xgboost as xgb
 from sklearn.model_selection import train_test_split, GridSearchCV
@@ -11,7 +11,6 @@ from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder
 import pickle
-import os
 
 # Load the dataset using a relative path
 file_path = os.path.join(os.getcwd(), 'data', 'laptop_price.csv')
