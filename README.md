@@ -3,14 +3,10 @@
 
 # Problem Description
 
-The main objective is to understand the factors that contribute to the pricing of laptops. This is done by analyzing the correlation between laptop specifications and their prices and developeing a predictive model that estimates the price of a laptop based on its specifications. This model could be useful for potential buyers to gauge the market value of a laptop and for sellers or manufacturers to price their products competitively.
+The main objective is to understand the factors that contribute to the pricing of laptops. This is done by analyzing the correlation between laptop specifications and their prices and developeing a predictive model that estimates the price of a laptop based on its specifications. This model is used for learning purposes and for potential buyers to gauge the market value of a laptop.
 
 The dataset was downloaded from Kaggle: https://www.kaggle.com/datasets/muhammetvarl/laptop-price
 
-# How the Model Can be Used
-A predictive model is built using machine learning techniques. The features like Company, Product, TypeName, Inches, ScreenResolution, CPU, RAM, Memory, GPU, Operating System (OpSys), and Weight could serve as the independent variables, while Price in euros would be the dependent variable (the one we aim to predict).
-
-Upon using the Linear, Random Forest and XGB Regressors and performing hyperparameter tuning I chose the XGB Regressor as the best model.
 
 
 # Exploratory Data Analysis
@@ -28,6 +24,11 @@ Important Features Analysis by identifying which features have the most influenc
 
 ![ram_price](https://github.com/AlexThePy/Laptop_Price_Prediction/assets/106477870/a21f062f-c7d3-462a-ac02-11987b84ff7e)
 
+
+# How the Model Can be Used
+A predictive model is built using machine learning techniques. The features like Company, Product, TypeName, Inches, ScreenResolution, CPU, RAM, Memory, GPU, Operating System (OpSys), and Weight could serve as the independent variables, while Price in euros would be the dependent variable (the one we aim to predict).
+
+Upon using the Linear, Random Forest and XGB Regressors and performing hyperparameter tuning I chose the XGB Regressor as the best model.
 
 # INSTRUCTIONS:
 
