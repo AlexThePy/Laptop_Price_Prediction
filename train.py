@@ -12,8 +12,8 @@ from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder
 import pickle
 
-# Load the dataset
-file_path = 'S:/ML Course/Capstone 2/laptop_price.csv'
+# Load the dataset using a relative path
+file_path = os.path.join(os.getcwd(), 'data', 'laptop_price.csv')
 laptop_data = pd.read_csv(file_path)
 
 # Preprocessing: Encoding categorical variables
