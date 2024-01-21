@@ -21,9 +21,9 @@ Upon using the Linear, Random Forest and XGB Regressors and performing hyperpara
 
 1.Open a terminal or command prompt and navigate to the directory where you have downloaded the project and run:
 
-'''
+```
 cd path/to/your/project
-'''
+```
 
 2.Create a Virtual Environment
 
