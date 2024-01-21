@@ -1,4 +1,5 @@
 # Laptop Price Prediction
+![laptops](https://github.com/AlexThePy/Laptop_Price_Prediction/assets/106477870/d567637a-59ba-4785-875f-cd61a9b4e05b)
 
 
 # Problem Description
@@ -6,7 +7,7 @@
 The main objective is to understand the factors that contribute to the pricing of laptops. This is done by analyzing the correlation between laptop specifications and their prices and developeing a predictive model that estimates the price of a laptop based on its specifications. This model is used for learning purposes and for potential buyers to gauge the market value of a laptop.
 
 The dataset was downloaded from Kaggle: https://www.kaggle.com/datasets/muhammetvarl/laptop-price
-
+The image with laptops was created using DALL-E 3
 
 
 # Exploratory Data Analysis
@@ -29,6 +30,10 @@ Important Features Analysis by identifying which features have the most influenc
 A predictive model is built using machine learning techniques. The features like Company, Product, TypeName, Inches, ScreenResolution, CPU, RAM, Memory, GPU, Operating System (OpSys), and Weight could serve as the independent variables, while Price in euros would be the dependent variable (the one we aim to predict).
 
 Upon using the Linear, Random Forest and XGB Regressors and performing hyperparameter tuning I chose the XGB Regressor as the best model.
+
+This is the prediction based on the XGB Regressor:
+![prediction](https://github.com/AlexThePy/Laptop_Price_Prediction/assets/106477870/505a2d09-9025-49d6-98a9-ce434dd13f29)
+
 
 # INSTRUCTIONS:
 
