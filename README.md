@@ -1,28 +1,29 @@
-# Laptop_Price_Prediction
+# Laptop Price Prediction
 
 
 # Problem Description
 
-The main objective is to understand the factors that contribute to the pricing of laptops. This could be done by analyzing the correlation between laptop specifications and their prices. Additionally, one could aim to develop a predictive model that estimates the price of a laptop based on its specifications. This model could be useful for potential buyers to gauge the market value of a laptop and for sellers or manufacturers to price their products competitively.
+The main objective is to understand the factors that contribute to the pricing of laptops. This is done by analyzing the correlation between laptop specifications and their prices and developeing a predictive model that estimates the price of a laptop based on its specifications. This model could be useful for potential buyers to gauge the market value of a laptop and for sellers or manufacturers to price their products competitively.
+
+The dataset was downloaded from Kaggle: https://www.kaggle.com/datasets/muhammetvarl/laptop-price
 
 # How the Model Can be Used
 A predictive model is built using machine learning techniques. The features like Company, Product, TypeName, Inches, ScreenResolution, CPU, RAM, Memory, GPU, Operating System (OpSys), and Weight could serve as the independent variables, while Price in euros would be the dependent variable (the one we aim to predict).
 
-Upon testing the Linear, Random Forest and XGB Regressors and performing hyperparameter tuning, the best model used is the XGB Regressor.
+Upon using the Linear, Random Forest and XGB Regressors and performing hyperparameter tuning I chose the XGB Regressor as the best model.
 
 # INSTRUCTIONS:
 
-Download train.py script and run it in your Python environment to ensure that it works correctly. You can run the script from the command line:
-
-python train_model.py
+# I. Download the whole project from my github.
 
 
+# II. Setting Up the Virtual Environment:
 
-# Setting Up the Virtual Environment:
+1.Open a terminal or command prompt and navigate to the directory where you have downloaded the project and run:
 
-1.Open a terminal or command prompt and navigate to the directory where your project is located.
-
+'''
 cd path/to/your/project
+'''
 
 2.Create a Virtual Environment
 
