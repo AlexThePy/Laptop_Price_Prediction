@@ -3,13 +3,12 @@
 
 # In[1]:
 
-
+import os
 from flask import Flask, request, jsonify, render_template
 import pandas as pd
 import pickle
 from threading import Thread
 from sklearn.compose import ColumnTransformer
-import os
 
 app = Flask(__name__)
 
