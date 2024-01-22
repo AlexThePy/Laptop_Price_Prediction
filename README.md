@@ -4,7 +4,7 @@
 
 # Problem Description
 
-The main objective is to understand the factors that contribute to the pricing of laptops. This is done by analyzing the correlation between laptop specifications and their prices and developeing a predictive model that estimates the price of a laptop based on its specifications. This model is used for learning purposes and for potential buyers to gauge the market value of a laptop.
+The main objective is to understand the factors that contribute to the pricing of laptops. This is done by analyzing the correlation between laptop specifications and their prices and developeing a predictive model that estimates the price of a laptop based on its specifications. This project is created for learning purposes and can be used for potential buyers to gauge the market value of a laptop.
 
 The dataset was downloaded from Kaggle: https://www.kaggle.com/datasets/muhammetvarl/laptop-price
 The image with laptops was created using DALL-E 3
@@ -41,10 +41,12 @@ Upon using the Linear, Random Forest and XGB Regressors and performing hyperpara
 # And this is the prediction based on the Linear Regression:
 ![lr_predictions](https://github.com/AlexThePy/Laptop_Price_Prediction/assets/106477870/1959dcc2-f34c-4c53-abd8-373b7fbf7f83)
 
-The MSE and R2 for the models are the following:
+# The MSE and R2 for the models are the following:
 
 Linear Regression: (103513.41657271476, 0.7962039556407352)
+
 Random Forest Regressor:(101900.37499209472, 0.7993796936696936)
+
 XGB Regressor: (98125.51348189873,0.806811598337255) -> this model was chosen for its' best results
 
 # INSTRUCTIONS:
