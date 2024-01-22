@@ -140,4 +140,4 @@ to start the Flask server.
 
 4. Check the laptop_price.csv dataset to predict the price of any laptop there!
 
-5. Thank you!
+5. Thank you for checking out my project!
