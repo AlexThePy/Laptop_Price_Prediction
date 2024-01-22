@@ -22,6 +22,8 @@ Visualization by creating plots to visualize distributions and relationships in 
 Important Features Analysis by identifying which features have the most influence on laptop prices using feature importance from model or other statistical methods.
 
 You can also check notebook.ipynb from this project.
+
+
 ![prices_ram](https://github.com/AlexThePy/Laptop_Price_Prediction/assets/106477870/1deff6dd-f9b7-40a6-b21c-63af934d1ae1)
 
 ![ram_price](https://github.com/AlexThePy/Laptop_Price_Prediction/assets/106477870/a21f062f-c7d3-462a-ac02-11987b84ff7e)
