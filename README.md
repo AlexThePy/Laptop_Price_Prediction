@@ -31,9 +31,21 @@ A predictive model is built using machine learning techniques. The features like
 
 Upon using the Linear, Random Forest and XGB Regressors and performing hyperparameter tuning I chose the XGB Regressor as the best model.
 
-This is the prediction based on the XGB Regressor:
+# This is the prediction based on the XGB Regressor:
 ![prediction](https://github.com/AlexThePy/Laptop_Price_Prediction/assets/106477870/505a2d09-9025-49d6-98a9-ce434dd13f29)
 
+
+# This is the prediction based on the Random Forest Regressor:
+![rf_predictions](https://github.com/AlexThePy/Laptop_Price_Prediction/assets/106477870/2d961aee-d3d6-47f5-8195-9a022c6dec12)
+
+# And this is the prediction based on the Linear Regression:
+![lr_predictions](https://github.com/AlexThePy/Laptop_Price_Prediction/assets/106477870/1959dcc2-f34c-4c53-abd8-373b7fbf7f83)
+
+The MSE and R2 for the models are the following:
+
+Linear Regression: (103513.41657271476, 0.7962039556407352)
+Random Forest Regressor:(101900.37499209472, 0.7993796936696936)
+XGB Regressor: (98125.51348189873,0.806811598337255) -> this model was chosen for its' best results
 
 # INSTRUCTIONS:
 
