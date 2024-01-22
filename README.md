@@ -7,6 +7,7 @@
 The main objective is to understand the factors that contribute to the pricing of laptops. This is done by analyzing the correlation between laptop specifications and their prices and developeing a predictive model that estimates the price of a laptop based on its specifications. This project is created for learning purposes and can be used for potential buyers to gauge the market value of a laptop.
 
 The dataset was downloaded from Kaggle: https://www.kaggle.com/datasets/muhammetvarl/laptop-price
+
 The image with laptops was created using DALL-E 3
 
 
