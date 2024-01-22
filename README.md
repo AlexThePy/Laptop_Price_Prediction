@@ -20,6 +20,8 @@ Correlation Analysis by determining how the different features relate to the pri
 Visualization by creating plots to visualize distributions and relationships in the data.
 
 Important Features Analysis by identifying which features have the most influence on laptop prices using feature importance from model or other statistical methods.
+
+You can also check notebook.ipynb from this project.
 ![prices_ram](https://github.com/AlexThePy/Laptop_Price_Prediction/assets/106477870/1deff6dd-f9b7-40a6-b21c-63af934d1ae1)
 
 ![ram_price](https://github.com/AlexThePy/Laptop_Price_Prediction/assets/106477870/a21f062f-c7d3-462a-ac02-11987b84ff7e)
@@ -30,7 +32,7 @@ A predictive model is built using machine learning techniques. The features like
 
 Upon using the Linear, Random Forest and XGB Regressors and performing hyperparameter tuning I chose the XGB Regressor as the best model.
 
-# This is the prediction based on the XGB Regressor:
+# This is the prediction based on the XGB Regressor (which is the chosen model):
 ![prediction](https://github.com/AlexThePy/Laptop_Price_Prediction/assets/106477870/505a2d09-9025-49d6-98a9-ce434dd13f29)
 
 
@@ -92,7 +94,7 @@ macOS/Linux:
 source venv/bin/activate
 ```
 
-Your command prompt should now indicate that you're working inside the virtual environment. It’s common to see the name of the virtual environment (e.g., (venv)) prefixed to your command prompt.
+Your command prompt should now indicate that you're working inside the virtual environment.
 
 Step 3: Installing Dependencies
 
@@ -110,7 +112,7 @@ This command reads the requirements.txt file and installs all the packages liste
 1. Open the cmd prompt and navigate to the directory with the dockerfile:
 
 ```
-cd "path\to\folder"
+cd path\to\folder
 ```
 
 2.Run the docker build command:
@@ -135,3 +137,5 @@ to start the Flask server.
 3. Access http://127.0.0.1:6969/
 
 4. Check the laptop_price.csv dataset to predict the price of any laptop there!
+
+5. Thank you!
