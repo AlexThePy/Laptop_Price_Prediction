@@ -1,5 +1,4 @@
 # Laptop Price Prediction
-![laptops](https://github.com/AlexThePy/Laptop_Price_Prediction/assets/106477870/2d6bbbb4-4cff-478c-9c51-3acb9a359768)
 
 
 # Problem Description
@@ -8,7 +7,6 @@ The main objective is to understand the factors that contribute to the pricing o
 
 The dataset was downloaded from Kaggle: https://www.kaggle.com/datasets/muhammetvarl/laptop-price
 
-The image with laptops was created using DALL-E 3
 
 
 # Exploratory Data Analysis
