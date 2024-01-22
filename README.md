@@ -54,7 +54,7 @@ XGB Regressor: (98125.51348189873,0.806811598337255) -> this model was chosen fo
 
 # INSTRUCTIONS:
 
-# I. Download the whole project from my github.
+# I. Download the whole project from my github and unzip it.
 
 
 # II. Setting Up the Virtual Environment:
